@@ -22,7 +22,7 @@ jobs:
         with:
           version: v3.4.0
       - name: Add Repo
-        run: helm repo add k8s-as-helm https://ameijer.github.io/k8s-as-helm
+        run: helm repo add k8s-as-helm https://k8sMesh.github.io/k8s-as-helm
       - name: Run chart-releaser
         uses: helm/chart-releaser-action@39ca3e607fa86db3e4199276373c41a2422897f7
         env:
